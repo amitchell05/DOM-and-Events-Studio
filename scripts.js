@@ -3,9 +3,9 @@
 
 window.addEventListener("load", function() {
 
-    let takeoff = document.getElementById("takeoff");
-    let landing = document.getElementById("landing");
-    let missionAbort = document.getElementById("missionAbort");
+    const takeoff = document.getElementById("takeoff");
+    const landing = document.getElementById("landing");
+    const missionAbort = document.getElementById("missionAbort");
 
     let flightStatus = document.getElementById("flightStatus");
     let shuttleBackground = document.getElementById("shuttleBackground");
@@ -22,10 +22,10 @@ window.addEventListener("load", function() {
     rocket.style.position = 'absolute';
 
     // Use these variables if you set ID's for buttons
-    let up = document.getElementById("up");
-    let down = document.getElementById("down");
-    let right = document.getElementById("right");
-    let left = document.getElementById("left");
+    const up = document.getElementById("up");
+    const down = document.getElementById("down");
+    const right = document.getElementById("right");
+    const left = document.getElementById("left");
 
     takeoff.addEventListener("click", function() {
         let response = window.confirm("Are you sure the shuttle is ready for takeoff?");
